@@ -20,7 +20,7 @@ func Connect(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	log.Println("connection...")
-	connectedUser := info.connect()
+	connectedUser := info.c	onnect()
 
 	if connectedUser == nil {
 		log.Println("connection error")
